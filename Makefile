@@ -6,3 +6,6 @@ build: $(OUTPUT)
 
 $(OUTPUT): $(CC)
 	xcodebuild -target $(TARGET)
+
+clean:
+	rm -rf build/Release/*
